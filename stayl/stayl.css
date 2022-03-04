@@ -44,6 +44,7 @@ body{
 header{
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
   background-color: white;
@@ -77,11 +78,11 @@ nav{
   display: inline-block;
 }
 
-.header-list-item{
+/* .header-list-item{
   display: flex;
   align-items: center;
   height: 56px;
-}
+} */
 
 .header-list-item-a{
   text-decoration: none;
@@ -91,7 +92,9 @@ nav{
 }
 
 .header-list-item-a:hover{
-  box-shadow: 0 3px black;
+  /* box-shadow: 0 3px black; */
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
 }
 
 .header-button{
@@ -136,6 +139,7 @@ nav{
 }
 
 .site-hero{
+  padding-top: 100px;
   height: 418px;
   display: flex;
   justify-content: space-between;
